@@ -1,3 +1,3 @@
-@use 'container';
-@use 'row';
-@use 'col';
+@forward 'container';
+@forward 'row';
+@forward 'col';

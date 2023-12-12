@@ -230,4 +230,20 @@ p {
   right: 0;
 }
 
+.text-color-white {
+  color: #eff0f3;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.text-align-justify {
+  text-align: justify;
+}
+
 /*# sourceMappingURL=main.css.map */
