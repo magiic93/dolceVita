@@ -248,7 +248,7 @@ p {
   border-top-right-radius: 0.6rem;
 }
 .image-box__image--next {
-  background: url("../../assets/img/two.webp") center/cover;
+  background: url("../assets/img/two.webp") center/cover;
 }
 @media screen and (min-width: 768px) {
   .image-box__image {
