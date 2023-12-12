@@ -348,10 +348,55 @@ p {
   background-position: -155px -43px;
 }
 
+.cookies {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  line-height: 1.8rem;
+  padding: 1rem;
+  color: #fff;
+  background-color: #000;
+}
+.cookies__text {
+  width: 70%;
+  text-align: justify;
+  font-size: 1.2rem;
+  padding: 5px;
+}
+@media screen and (min-width: 768px) {
+  .cookies__text {
+    width: 90%;
+    text-align: center;
+  }
+}
+.cookies__close {
+  width: 30%;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 5px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .cookies__close {
+    width: 10%;
+  }
+}
+.cookies__close a {
+  font-size: 1.6rem;
+}
+.cookies__close a:hover {
+  color: red;
+}
+
 .site-body__social {
   position: fixed;
   left: -135px;
   bottom: 20%;
+}
+.site-body__cookies {
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
 
 .site-header {
@@ -436,6 +481,14 @@ p {
 
 .text-align-justify {
   text-align: justify;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
 }
 
 /*# sourceMappingURL=main.css.map */
